@@ -1,0 +1,70 @@
+1-criando o repositório
+
+Gitbash here,dentro de uma pasta criada.
+
+2-Primeiro comando:
+	git init #Com esse comando,foi criado um arquivo,portanto ele está camuflado,ai você vai em itens ocultos na parte visualizar da pasta.
+
+3-criar um arquivo de texto na pasta,para comecar a versionar o codigo
+
+4-Colocar no terminal:
+
+	 git status #ele mostra tudo o que está na sua pasta,lah você encontra commit que quer dizer versões do código.
+			#Untracked=não foram adicionados ao controle de versão,e em vermelho ele mostra quais arquivos não
+			#estão no controle de versão em vermelho.
+
+5-Para adicionar arquivos,ao controle de versão:
+
+	git add "nome_do_arquivo"
+
+6-Caso tenha mais de um arquivo utiliza-se outra forma e mais prática:
+	git add . #Assim você adiciona tudo e não perde tempo.
+
+7-Criação de comentários do  código sempre que criar uma nova versão:
+	git commit -m"qual numero da versão" #aqui criou-se a primeira versão do programa,e possuit 
+	#o master,que indica pra onde estão sendo enviados os arquivos.Os arquivos,estarão
+	#sendo enviados para o repositorio na nuvem dentro do github.
+	
+8-Após isso vem o comando de envio para o github:
+
+	git push
+
+9-Criar um repositorio no github :
+	new_repository>criar lah>public>new repository
+
+10-Volta pro git e cadastra o feito:
+	git remote add origin (link do repositorio)
+
+11-Inicialmente enviar para master:
+	git push --set-upstream origin master
+12-feito todo o processo,pode-se enviar todo o processamento para diferentes areas de comando,caso faça uma alteração no
+programa,basta repitir tudo o que fez.
+
+13-Como ver um histórico das versões do código:
+	git reflog
+
+14-Caso tenha cometido um erro,e precise voltar uma versão do codigo anterior fica:
+	git reset --hard (aqui coloca o id do reflog)
+
+15-Se quiser retornar,a versão atual criada:
+	git reflog>git reset --hard(id)
+
+16-Se for mudar entre as versões pergunte ao seu superior,para o uso da função reflog.
+
+17-Se quiser acessar as branchs=caminhos:
+	git branch
+
+18- Se quiser criar uma branch nova,faz:
+	git branch staging #Nome utilizado para versões diferentes,não oficiais,se você ver um "*" na master,e ela 
+	ficar verde,significa a branch a qual estamos no momento.
+
+19-Se quiser mudar para uma nova branch criada faz:
+	git checkout (nome da branch) #o trabalho aqui,é feito normalmente
+
+20-Se você quiser importar as coisas de uma branch para outra fica assim:
+	
+	
+
+
+	
+	
