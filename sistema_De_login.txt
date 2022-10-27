@@ -1,2 +1,3 @@
 Digite seu nome
 Digite sua idade
+Digite sua senha
